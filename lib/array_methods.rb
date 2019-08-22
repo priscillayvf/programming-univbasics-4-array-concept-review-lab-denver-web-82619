@@ -12,8 +12,8 @@ end
 
 
 def find_max_value(array)
-  max_value = array[0] do
-  while counter < array.length 
+  max_value = array[0] 
+  while counter < array.length do |counter|
       if array[counter] > max_value
         max_value = array[counter]
       end
